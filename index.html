@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1d8d945519.js" crossorigin="anonymous"></script>
+    
+    <!-- My Css -->
+     <link rel="stylesheet" href="style.css">
+
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+    <title>Discovery Java</title>
+  </head>
+
+  <!-- Navbar -->
+  <body>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: transparent";>
+  <div class="container-fluid">
+    <a class="navbar-brand" ><h2>Discovery Yogyakarta</h2></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto nav-pilss">
+        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        <a class="nav-link" href="#info">Info</a>
+        <a class="nav-link" href="#tentang">Tentang Yogyakarta</a>
+        <a class="nav-link" href="#slider">Galeri</a>
+        <a class="nav-link" href="#footer">Tentang Kami</a> 
+      </div>
+    </div>
+  </div>
+</nav>
+  <!-- Akhir Navbar -->
+
+
+  <!-- Jumbotron -->
+<div id="home" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="image/gunungm.jpg" class="d-block w-100" class="img-responsive" alt="slide 1" height="900" >
+      <div class="carousel-caption">
+        <h5>Gunung Merapi</h5>
+        <p>Gunung yg terletak di antara Magelang dan Yogyakarta ini memiliki spot wisata terbaik untuk berfoto dan mencoba untuk berwisata ekstrem.</p> 
+      </div>
+  </div>
+  <div class="carousel-item" data-bs-interval="5000" >
+      <img src="image/tugu.jpg" class="d-block w-100" alt="slide 2"  >
+      <div class="carousel-caption">
+       <h5>Tugu Yogyakarta</h5>
+        <p>Merupakan spot foto icon terbaik jika berkunjung ke Yogyakarta.</p> 
+      </div>
+  </div>
+  <div class="carousel-item" data-bs-interval="5000" >
+      <img src="image/malioboro2.jpg" class="d-block w-100" alt="slide 3" >
+      <div class="carousel-caption">
+        <h5>Malioboro</h5>
+        <p>Tempat yang paling sering dikunjungi wisatawan untuk berbelanja barang khas Yogyakarta.</p>
+      </div>
+  </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#home"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#home"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    <!-- Akhir Jumbotron -->
+
+  <!-- Info Panel -->
+<section id="info">
+  <div class="row justify-content-center">
+    <div class="col-lg-10 info-panel">
+      <div class="row">
+        <div class="col-lg">
+          <i class="fas fa-map-marked fa-7x alt" ></i>
+          <h4>MAP</h4>
+          <p>Tempat tujuan terbaik di Yogyakarta.</p>
+        </div>
+         <div class="col-lg">
+          <i class="fas fa-monument fa-7x"></i>
+          <h4>ICON</h4>
+          <p>Icon yang dimiliki oleh Yogyakarta.</p>
+        </div>
+         <div class="col-lg">
+          <i class="fas fa-camera-retro fa-7x"></i>
+          <h4>PHOTO</h4>
+          <p>Beberapa spot foto terbaik di Yogyakarta.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Akhir Info panel -->
+
+  <!-- container bawah -->
+  <div class="row justify-content-center text-center pt-5 ">
+    <div class="judul">
+    <h1>The Culture Of Yogyakarta</h1>
+    </div>
+    <div class="col-lg-10 container-panel">
+      <div class="row">
+        <div class="col-lg">
+          <img src="image/wayang.jpg" width="250" height="210" class="rounded-circle">
+          <h4>Kesenian</h4>
+          <p>Wayang Kulit.</p>
+        </div>
+         <div class="col-lg">
+          <img src="image/tugu2.jpg" width="250" height="210" class="rounded-circle">
+          <h4>Icon Utama</h4>
+          <p>Tugu Yogyakarta.</p>
+        </div>
+         <div class="col-lg">
+          <img src="image/joglo.jpg" width="250" height="210" class="rounded-circle">
+          <h4>Rumah Adat</h4>
+          <p>Joglo Rumah Khas Yogyakarta.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+        
+
+  <!-- akhir container  -->
+
+
+  <!--news -->
+  <!-- gallery1 -->
+<section id="tentang">  
+   <div class="container text-center pt-5">
+   <br>
+   <h2>Kebudayaan dan Keindahan Yogyakarta</h2><br>
+     <div class="row justify-content-center ">
+       <div class="col-md-4 news-panel">
+    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+      <div>
+    <img src="image/mienyemek.jpg" class="img-responsive" width="300" height="200">
+    <button class="btn btn-outline-light"><h5>Kuliner</h5></button>
+      </div>
+    </a>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel1">Kuliner Menarik di Yogyakarta </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="image/gudeg.jpg"  width="250" height="210" alt="yang">
+        <p> Gudeg adalah makanan khas dari daerah Yogyakarta yang terbuat dari nangka muda yang dimasak dengan santan dan diberi daun jati untuk memberi warna coklat pada masakan ini, gudeg juga bisa disajikan dan dinikmati dengan berbagai lauk lain seperti ayam goreng, telur bulat, tahu dan tempe bacem, dan krecek yaitu sebuah masakan yang terbuat dari kulit sapi kering yang dimasak dengan sambal goreng dan sedikit kuah. 
+        Rekomendasi tempat makan gudeg terenak di Jogja ada di Gudeg Yu Djum, Gudeg Mbah Lindu, Gudeg Pawon dan Gudeg mercon Bu Tinah</p>
+        <img src="image/rujakes.jpg" width="270" height="230"  alt="yang">
+        <p>Rujak es adalah makanan/camilan yang familiar ditemukan di Jogja, makanan ini dibuat dari buah yg diserut dan diberi bumbu rujak seperti biasa dan dalam penyajian nya ditambahkan es krim diatas rujaknya.</p>
+        <img src="image/satekl.png"  width="270" height="200" alt="yang">
+        <p>Sate klatak adalah makanan yang terbuat dari daging kambing yang dipotong kecil-kecil ditusuk dengan jeruji besi seperti pada roda sepeda lalu dibakar dengan bumbu khas sate klatak.
+        Rekomendasi sate klatak enak di Jogja ada di Sate klatak Pak Pong, sate klatak Pak Jede dan sate klatak Pak Bari.</p>
+        <img src="image/ronde.jpg"   alt="yang">
+        <p>Ronde/Wedang Ronde adalah minuman yang terbuat dari tepung ketan yang dibuat bulat kecil dan disajikan dengan kuah jahe hangat yang manis. Minuman ini nikmat untuk dinikmati pada saat malam hari . </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+       </div>
+     <!-- end g1 -->
+
+     <!-- gallery2 -->
+      <div class="col-md-4 news-panel">
+    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+      <div>
+    <img src="image/tarijog.jpg" class="img-responsive" width="300" height="200">
+    <button class="btn btn-outline-light"><h5>Kesenian</h5></button>
+      </div>
+    </a>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel2">Kesenian Khas Yogyakarta</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <img src="image/wayang.jpg" alt="yong"  width="250" height="200">
+      <p>Wayang kulit adalah kesenian khas dan yang banyak di tampilkan di Yogyakarta. Kesenian ini bisa disaksikan dari arah belakang atau depan, jika dari belakang penonton akan melihat bayang-bayang wayang dari dalam kelir(tirai putih untuk menangkap bayangan wayang). Cikal bakal inilah yang mungkin menjadikan kesenian ini dinamakan wayang yang berasal dari bayang-bayang. Selain itu bayang-bayang ini ditafsirkan bahwa cerita dalam wayang mencerminkan bayangan kehidupan manusia di dunia.</p>
+      <img src="image/tarijog.jpg" alt="yong"  width="280" height="200">
+      <p>Tari Serimpi adalah tarian khas dari Yogyakarta yang sudah terkenal sampai ke mancanegara.Dulu tarian ini hanya boleh dimainkan di lingkungan keraton saja karena dianggap sakral, namun seiring perkembangan jaman tarian ini boleh di mainkan di acara-acara seperti acara penyambutan tamu dan lainnya. Tari Serimpi dimainkan oleh empat orang penari wanita yang sangat cantik dan anggun dan ciri khas tarian ini adalah gerak tarian yang lambat dan lemah gemulai yang memberikan makna kelemah lembutan dan kesopanan.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+       </div>
+       <!-- end g2 -->
+
+       <!-- gellery3 -->
+
+      <div class="col-md-4 news-panel ">
+    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+      <div>
+    <img src="image/pantaiparis.jpg" class="img-responsive" width="300" height="200">
+    <button class="btn btn-outline-light"><h5>Wisata</h5></button>
+      </div>
+    </a>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel3">Tempat Wisata di Yogyakarta </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <img src="image/tugu2.jpg" alt="ying" width="300" height="200">
+      <p>Tugu Yogyakarta adalah ikon utama yang sering dikunjungi dan dilewati oleh para wisatawan yang berkunjung ke Yogyakarta. Tugu Yogyakarta ini bisa dilihat jika kita ingin pergi ke maliboro dari arah jalan kaliurang jika menggunakan motor/mobil. </p>
+      <img src="image/pinusimog.jpg" alt="ying" width="300" height="200">
+      <p> Hutan pinus mangunan atau juga biasa sering dikenal hutan pinus imogiri ini terletak di daerah Bantul. Disini anda bisa menikmati ketenangan dan sejuknya angin di hutan pinus ini, selain itu anda juga bisa duduk-duduk, tiduran dan berswafoto di dalam hutan ini. Yang istimewa disini anda bisa menaiki gardu pandang sehingga bisa melihat pemandangan sekitar hutan yang asri dan indah. </p>
+      <img src="image/pantaiparis.jpg" alt="ying" width="300" height="200">
+      <p>Pantai Parangtritis terletak di daerah Bantul sekitar 25 km dari selatan kota Yogyakarta. Di pantai ini anda bisa menikmati keindahan dari ombak-ombak yang menyapu ke bibir pantai dan juga menikmati sunset saat sore hari, selain itu kita bisa juga menaikit ATV dan kereta kuda untuk pergi mengelilingi pantai. Anda yang ingin berpergian ke pantai ini atau utamanya pantai selatan Jawa memiliki mitos untuk jangan memakai baju hijau kesini.</p>
+      <img src="image/malioboro2.jpg" alt="ying" width="250" height="200">
+      <p>   Maliboro disinilah surganya jika anda ingin berbelanja dan menikmati keramaian kota Yogyakarta di siang sampai malam hari. Di sepanjang jalan malioboro tersebar banyak pedagang yang menjajakan batik dan souvenir khas Yogyakarta, ada juga pasar beringharjo di dekat malioboro yang juga menjajakan batik, jajanan pasar, pakaian dan juga ada rempah-rempah untuk obat tradisional. Selain itu di maliboro juga banyak seniman jalanan yang menjual dan memamerkan karya mereka.</p>
+      <p>  Setelah dari malioboro anda bisa melanjutkan perjalanan wisata anda ke keraton Yogyakarta dan benteng Vredenburg jika ingin lanjut untuk melihat sejarah dari kota Yogyakarta dan menikmati wisata Jogja lebih lanjut. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+       </div>
+       <!-- endg3 -->
+
+      </div>
+    </div>
+   </div>
+    
+</section>  
+
+
+  <!-- akhir news -->
+
+  <!-- Gallery -->
+  <div class="judul">
+  <br>
+  <h1 style="text-align: center; font-family: 'lato', sans-serif;">Galeri Yogyakarta</h1>
+  <br><br>
+  </div>
+  <section id="slider"> 
+    <input type="radio" name="slider" id="s1">
+     <input type="radio" name="slider" id="s2">
+      <input type="radio" name="slider" id="s3" checked>
+       <input type="radio" name="slider" id="s4">
+        <input type="radio" name="slider" id="s5">
+
+  <label for="s1" id="slide1">
+    <img src="image/tugu.jpg" alt="y" height="100%" width="100%">
+  </label>
+
+   <label for="s2" id="slide2">
+    <img src="image/pinusimog.jpg" alt="y" height="100%" width="100%">
+  </label>
+
+   <label for="s3" id="slide3">
+    <img src="image/pantaiparis.jpg" alt="y" height="100%" width="100%">
+  </label>
+
+   <label for="s4" id="slide4">
+    <img src="image/merapi.jpg" alt="y" height="100%" width="100%">
+  </label>
+
+   <label for="s5" id="slide5">
+    <img src="image/tugu2.jpg" alt="y" height="100%" width="100%">
+  </label>
+    
+  </section>  
+
+ 
+  <!-- End Gallery -->
+
+
+
+  <!-- footer -->
+<section id="footer">
+<footer>
+<div class="container-fluid p-0 pt-20">
+  <div class="row text-left">
+    <div class="col-md-5 col-md-5">
+      <h1 class="text-light">Tentang Kami</h1>
+      <p class="text-muted">
+        Saya Veri adalah pembuat web amatir dan iseng-iseng dari youtube. Silahkan dilihat dan dikunjungi website sederhana ini.</p>
+      <p class="pt-4 text-muted">
+        Copyright &copy 2021 All Right Reserved | This template is made by Veri
+        <span>Stephanus Veri</span>
+      </p>
+    </div>
+    <div class="col-md-5">
+      <h4 class="text-light"></h4>
+      <p class="text-muted">Stay Update</p>
+      <form class="form-inline" netlify>
+        <div class="col pl-">
+        <div class="input-group pr-5">
+          <input type="text" class="form-control bg-dark text-white"  placeholder="Email">
+          <div class="input-group-prepend">
+            <div class="input-group-text">    
+            <button type="fas fa-arrow-right" class="btn fas fa-arrow-right"></button>
+            </div>
+          </div>
+         </div> 
+        </div>
+      </form> 
+    
+    <form class="form-inline" netlify>
+        <div class="col pl- mt-3">
+        <div class="input-group pr-5">
+          <textarea class="form-control bg-dark text-white" id="exampleFormControlTextarea1" rows="3" placeholder="Message" ></textarea>
+            <div class="input-group-text">    
+            <button type="fas fa-arrow-right" class=" btn fas fa-arrow-right"></button>
+            </div>
+         </div> 
+        </div>
+      </form> 
+    
+
+
+    </div>
+    <div class="col-md-2">
+      <h4 class="text-light">Ikuti Kami</h4>
+      <p class="text-muted">Mari Bergabung Dengan Kami</p>
+      <div class="column text-light">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+</div>
+</footer>
+</section>
+
+  <!-- end footer -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
